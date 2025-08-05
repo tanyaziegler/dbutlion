@@ -1,11 +1,11 @@
 /* General Styles & Variables */
 :root {
-    --primary-color: #004080; /* Deep Blue - professional and trustworthy */
-    --secondary-color: #0d5134; /* Brighter Blue - for accents and calls to action */
+    --primary-color: #0d5134; /* Deep Green - professional and trustworthy */
+    --secondary-color: #d0b161; /* Gold - for accents and calls to action */
     --accent-color: #6c757d;    /* Muted Gray - for secondary text and borders */
     --background-color: #f8f9fa; /* Light Gray - clean and spacious */
     --text-color: #333;         /* Dark Gray - for body text */
-    --heading-color: #003060;   /* Darker Blue - for headings */
+    --heading-color: #0d5134;   /* Darker Green - for headings */
     --white: #fff;
     --footer-bg: #343a40;       /* Darker background for footer */
     --footer-text: #ccc;        /* Lighter text for footer */
@@ -70,7 +70,7 @@ a:hover {
 
 /* Header & Navigation */
 header {
-    background-color: var(--white);
+    background-color: var(--heading-color);
     box-shadow: var(--box-shadow);
     position: sticky;
     top: 0;
