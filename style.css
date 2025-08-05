@@ -75,7 +75,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 /* Desktop Navigation */
@@ -132,7 +132,7 @@ header {
     background: none;
     border: none;
     font-size: 1.8em;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     cursor: pointer;
     padding: 5px;
 }
@@ -142,7 +142,7 @@ header {
     top: 100%; /* Position below the header */
     left: 0;
     width: 100%;
-    background-color: var(--white);
+    background-color: var(--primary-color);
     box-shadow: var(--box-shadow);
     display: flex;
     flex-direction: column;
